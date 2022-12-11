@@ -1,0 +1,91 @@
+@media (min-width:349px) and (max-width: 373px) {
+    .banner__contents {
+        margin-left: 1em !important;
+        /* padding-top: 60px;
+        height: 100px; */
+        width: auto !important;
+    }
+
+    .banner__fadeBottom
+    {
+        margin-top:11.6em !important;
+    }
+.banner__description
+{
+    max-width: 95% !important;
+}
+}
+
+
+@media (min-width:374px) and (max-width: 599px) {
+.banner__contents
+{
+    margin-left:2em !important;
+}
+
+.banner__title
+{
+    font-size: 3rem !important;
+}
+
+}
+
+header{
+    background-size:cover;
+    width:100%;
+    max-height: 450px;
+background-repeat: no-repeat; 
+background-position: top;
+height:100%; 
+}
+
+.banner__contents
+{
+    margin-left:4em;
+    padding-top:60px;
+    height:100px;
+}
+
+.banner__title
+{
+    font-size: 4rem;
+    font-weight:500;
+    padding-bottom:0.3rem;
+    line-height:1em;
+}
+
+.banner__description
+{
+    width:45rem;
+    line-height: 1.3;
+    padding-top:1rem;
+    font-size:0.9rem;
+    max-width:360px;
+    height:80px;
+}
+  .banner__fadeBottom {
+        height: 3.5rem;
+        margin-top: 18.6em;
+        background-image: linear-gradient(180deg,#0000,rgb(17, 16, 16),#040404);
+    }   
+
+
+.banner__button
+{
+    cursor:pointer;
+    color:white;
+    outline:none;
+    border:none;
+    font-weight:700;
+    border-radius: 0.2vw;
+    padding:0.5rem 2rem 0.5rem 2rem ;
+    margin-right:1em;
+    background-color: rgba(32, 32, 32, 0.85);
+
+}
+
+.banner__button:hover{
+    color:black;
+    background-color: white;
+    transition: all 0.2s;
+}

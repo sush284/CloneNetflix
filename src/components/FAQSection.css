@@ -1,0 +1,4 @@
+.accordion button
+{
+    --bs-accordion-btn-active-icon:url(../images/plus-24.png);
+}

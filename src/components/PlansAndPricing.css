@@ -1,0 +1,21 @@
+.pricingSection
+{
+height:40em;
+}
+
+tbody tr td:first-child
+{
+    text-align: left;
+}
+
+.table
+{
+    width:50em;
+    margin:auto;
+}
+/* 
+.home-button-section .btn
+{
+    top:2em;
+    right:4em;
+} */

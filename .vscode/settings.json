@@ -1,0 +1,17 @@
+{
+    "cSpell.words": [
+        "adipisicing",
+        "appspot",
+        "boxshot",
+        "childrenmovies",
+        "Chromecast",
+        "firebaseapp",
+        "PEWL",
+        "predeploy",
+        "reduxjs",
+        "sush",
+        "tailwindcss"
+    ],
+    // other settings
+    "emmet.includeLanguages": { "javascript":"javascriptreact" }
+}

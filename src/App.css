@@ -1,0 +1,409 @@
+/* @tailwind base;
+@tailwind components;
+@tailwind utilities; */
+
+/* Extra small devices (phones, 600px and down) */
+@media (min-width:374px) and (max-width: 599px) {
+.logoBrand
+{
+  left:1.5em !important;
+}
+
+.backgroundImage
+{
+  width:100% !important;
+  height:65vh !important;
+}
+.sideButtons .loginButton {
+    right:1em !important;
+    height:2.5rem !important;
+}
+
+.languageButton
+{
+  height:2.5rem !important;
+  right: 7em !important;
+}
+
+.headerMiddleContent
+{
+  top:18em !important;
+  left:55% !important;
+  width:27em !important;
+}
+
+.headerMiddleContent h1
+{
+  font-size: 1.98rem !important;
+}
+
+.headerMiddleContent h4 {
+font-size: 1.5rem !important;
+}
+
+.headerMiddleContent h6
+{
+  padding:0 11% !important;
+}
+
+.image1Align {
+  width: 100% !important;
+  height: 100% !important;
+}
+
+.image2Align
+{
+  width:400px !important;
+  height:300px !important;
+}
+.video1Align
+{
+  top: 0em !important;
+  left: 4.3em !important;
+  width: 242px !important;
+  height: 209px !important;
+}
+.video2Align{
+  width:260px !important;
+  height:auto !important;
+  left:5em !important;
+}
+
+.accordion
+{
+  width:auto !important;
+}
+
+.FAQSection input[type="text"]
+{
+  margin-left:0em !important;
+  width:100% !important;
+}
+
+.hstack .placeLabel
+{
+  left:1em !important;
+}
+
+
+.kidsStoryDiv img{
+width: 100% !important;
+
+}
+
+.downloadMovieBox img
+{
+  height:80% !important;
+  width:100% !important;
+}
+
+.downloadMovieBox
+{
+  margin: -79px auto -10px auto!important;
+}
+.kidsStoryDiv, .downloadShowsDiv, .userStoryTvAd, .watchAnywhereDiv, .headerSection, .FAQSection, .FooterSection {
+width:470px !important;
+}
+.hstack
+{
+  flex-direction: column !important;
+}
+.hstack button{
+  width: 9rem !important;
+    width: 9rem !important;
+    margin-top: 1em !important;
+}
+
+.downloadShowsDiv img:first-child
+{
+  width:100% !important;
+}
+.row h1
+{
+  text-align: center;
+}
+.row h3
+{
+  text-align: center;
+}
+
+}
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {}
+
+
+.App
+{
+background-color: black;
+/* height:210vh; */
+}
+* {
+  color: white;
+  /* background-color: black; */
+  font-family: Netflix Sans, Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+
+.kidsStoryDiv img{
+  width:500px;
+  height:350px;
+}
+
+.backgroundImage {
+  object-fit: cover;
+  width: 100%;
+  /* height: 100%; */
+  filter: brightness(50%);
+  transform: scale(1) translateY(0%);
+}
+
+.headerMiddleContent h1 {
+  font-size: 3.125rem;
+}
+
+.headerMiddleContent h4 {
+  font-size: 1.625rem;
+}
+
+.headerMiddleContent h6 {
+  font-size: 1.2rem;
+}
+
+.headerMiddleContent {
+  top: 20em;
+}
+
+.bItem {
+  background: linear-gradient(
+    to left,
+    rgba(0, 0, 0, 0) 0%,
+    rgba(0, 0, 0, 1) 100%
+  );
+}
+
+.languageButton {
+  position: absolute;
+  right: 10em;
+  top: 2em;
+  width: 7rem;
+  height: 2em;
+  background-color: transparent;
+  border-radius: 3px;
+}
+
+.footerButton .languageButtonFooter {
+  position: absolute;
+  left: 20em;
+  bottom: 4em;
+  width: 7.6rem;
+  height: 3.4em;
+  background-color: transparent;
+  border-radius: 3px;
+}
+
+.accordion-header, .accordion-body
+{
+  background-color: #222222;
+  font-size:1.6rem;
+  line-height:1.3em;
+
+}
+
+.accordion-header
+{
+  border-bottom: none;
+}
+
+.footerButton h6{
+  position:absolute;
+  left:20em;
+  bottom:1.4em;
+
+}
+
+.sideButtons > select > option {
+  background-color: black;
+}
+
+.sideButtons .loginButton {
+  background-color: #c10000;
+  position: absolute;
+  top: 2em;
+  right: 3em;
+  width: 5rem;
+  height: 2rem;
+  border: none;
+}
+
+.logoBrand {
+  position: absolute;
+  height: 2.25rem;
+  width: 8.375rem;
+  top: 2em;
+  left: 4em;
+}
+.downloadShowsDiv img
+{
+  width:500px;
+  height:350px;
+}
+
+.kidsStoryDiv,
+.downloadShowsDiv,
+.userStoryTvAd,
+.watchAnywhereDiv,
+.headerSection,
+.FAQSection,
+.FooterSection {
+  border-bottom: 10px solid #222222;
+  background-color: black;
+}
+
+.userStoryTvAd {
+  background-color: black;
+}
+
+.video2Align {
+  position: absolute;
+  top: 2em;
+  left: 7em;
+  width: 300px;
+  height: 180px;
+}
+
+.accordion-item .accordion-header button {
+  background-color: #222222;
+  color: white;
+  /* border-bottom: 2px solid #222222; */
+  border-radius: 10px;
+  font-size:1.6rem;
+}
+
+.accordion-item {
+  border: 5px solid #222222;
+  border-radius: 10px;
+margin-bottom: 0.7em;
+}
+
+
+.accordion
+{
+  --bs-accordion-border-color:none !important;
+}
+
+.FAQSection input[type="text"] {
+  height: 3.2em;
+  margin-left: 13.5em;
+  background-color: white;
+  border-color: white;
+  color: black;
+}
+.headerMiddleContent input[type="text"] {
+  height: 3.2em;
+  margin-left: 0em;
+  background-color: white;
+  border-color: white;
+  color: black;
+}
+
+.headerMiddleContent input[type="text"]:focus .placeLabel {
+  color: #8c8c8c;
+  font-size: 14px;
+  left: 23px;
+  position: absolute;
+  top: 10%;
+  transform: translateY(-50%);
+  transition: font 0.1s ease, top 0.1s ease, transform 0.1s ease;
+}
+
+.headerMiddleContent .placeLabel1 {
+  color: #8c8c8c;
+  font-size: 17px;
+  left: 1.5em;
+  position: absolute;
+  top: 23%; 
+  transform: translateY(-50%);
+  transition: font .1s ease,top 1s ease,transform .1s ease;
+
+}
+
+.hstack .placeLabel
+{
+  color: #8c8c8c;
+  font-size: 17px;
+  left: 14em;
+  position: absolute;
+  top: 23%; 
+  transform: translateY(-50%);
+  transition: font .1s ease,top 1s ease,transform .1s ease;
+
+}
+
+
+.FAQSection input[type="text"]:focus {
+  border-color: black;
+}
+
+.FooterSection .gridSection {
+  width: 800px;
+  height:60vh;
+}
+
+.gridSection .row
+{
+  margin-left:-15px;
+}
+
+.downloadMovieBox
+{
+  width: 350px;
+    border: 1px solid #626262;
+    border-radius: 20px;
+    height: 100px;
+    margin-left: 79px;
+    margin-top: -100px;
+    position: relative;
+    background-color: black;
+}
+
+.downloadMovieBox .row
+{position: absolute;
+  padding: 0.5em;
+  margin-left: 0px;
+}
+
+
+.underLineText,
+.FooterSection h6 {
+  color: #626262;
+}
+.underLineText:hover {
+  color: white;
+  text-decoration: underline;
+}
+
+.image2Align {
+  position: relative;
+  z-index: 1;
+}
+
+.image1Align {
+  position: relative;
+  z-index: 1;
+}
+
+.video1Align {
+  position: absolute;
+  top: 5em;
+  left: 4.3em;
+  width: 440px;
+  height: 230px;
+}
